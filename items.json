@@ -1,0 +1,20 @@
+
+{
+    "items": [
+      {
+        "id": "item1",
+        "name": "Normal Chai",
+        "img" : "../assets/normal-tea.jpeg",
+        "description": "Chai Made Up of Milk with added Sugar",
+        "price": 10
+      },
+      {
+        "id": "item2",
+        "name": "Ginger Chai",
+        "img" : "../assets/ginger-tea.jpeg",
+        "description": "Chai Made Up of Milk & Ginger with added Sugar",
+        "price": 15
+      }
+    ]
+  }
+  

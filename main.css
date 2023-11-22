@@ -1,0 +1,109 @@
+/*#341918
+#ab5a35
+#d6b39a
+#f2efee
+#a2b8bf*/
+
+*, body{
+    margin: 0;
+    height: 100hv;
+   }
+   body{
+    background-color: #a2b8bf;
+   }
+header{
+    font-family: 'Courier New';
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    background-color: #341918;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleItem {
+  color:#341918;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #f2efee;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #630e0e;
+}
+
+.about {
+  margin-left: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.descr {
+  width: 200px;
+  font-size: 16px;
+  color: gray;
+  white-space: pre-line;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price p {
+  margin-right: 10px;
+}
+
+.price .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.price button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.price .buttons input {
+  width: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#billBtn{
+  padding: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f8f3f3;
+  border-radius: 20px;
+  background-color: rgb(105, 61, 58);
+  cursor: pointer;
+}
+
+
+/*#341918
+#ab5a35
+#d6b39a
+#f2efee
+#a2b8bf*/
